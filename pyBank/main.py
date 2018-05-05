@@ -9,8 +9,9 @@ revenue_data = []
 with open(filepath) as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
-        date_name = row["Date"]
-        revenue_name = row["Revenue"]
+        date_name = ["Date"]
+        revenue_name = ["Revenue"]
+
 
 
 
